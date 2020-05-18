@@ -31,8 +31,8 @@ class CardinityController extends Controller
     public function __construct(){
 
         $this->client = Client::create([
-            'consumerKey' => 'test_cf6mph7jr9cuxzusknajcxmjvdneyo',
-            'consumerSecret' => 'jbm1gem1hm6b7zdbb2ks0mwbtf0zb6j9aamt7zr2h0nh7sauhf',
+            'consumerKey' => 'key',
+            'consumerSecret' => 'secret',
         ]);
 
         $this->config = [
